@@ -10,6 +10,12 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -41,3 +47,12 @@
     -->
   </body>
 </html>
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"
+></script>
+<script type="text/javascript">
+  (function() {
+    emailjs.init("<YOUR USER ID>"); // Obtain your user ID at the dashboard https://dashboard.emailjs.com/integration
+  })();
+</script>
